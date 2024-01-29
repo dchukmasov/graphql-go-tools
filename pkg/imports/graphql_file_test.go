@@ -7,7 +7,7 @@ import (
 
 	"github.com/jensneuse/diffview"
 
-	"github.com/wundergraph/graphql-go-tools/pkg/testing/goldie"
+	"github.com/dchukmasov/graphql-go-tools/pkg/testing/goldie"
 )
 
 func TestGraphQLFile_Render(t *testing.T) {

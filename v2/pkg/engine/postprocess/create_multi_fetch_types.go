@@ -3,8 +3,8 @@ package postprocess
 import (
 	"slices"
 
-	"github.com/wundergraph/graphql-go-tools/v2/pkg/engine/plan"
-	"github.com/wundergraph/graphql-go-tools/v2/pkg/engine/resolve"
+	"github.com/dchukmasov/graphql-go-tools/v2/pkg/engine/plan"
+	"github.com/dchukmasov/graphql-go-tools/v2/pkg/engine/resolve"
 )
 
 // CreateMultiFetchTypes is a postprocessor that transforms multi fetches into more concrete fetch types

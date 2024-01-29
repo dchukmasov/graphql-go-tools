@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/wundergraph/graphql-go-tools/pkg/ast"
-	"github.com/wundergraph/graphql-go-tools/pkg/graphqlerrors"
-	"github.com/wundergraph/graphql-go-tools/pkg/operationreport"
+	"github.com/dchukmasov/graphql-go-tools/pkg/ast"
+	"github.com/dchukmasov/graphql-go-tools/pkg/graphqlerrors"
+	"github.com/dchukmasov/graphql-go-tools/pkg/operationreport"
 )
 
 type Errors interface {

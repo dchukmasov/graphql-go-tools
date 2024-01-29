@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/wundergraph/graphql-go-tools/internal/pkg/unsafeprinter"
+	"github.com/dchukmasov/graphql-go-tools/internal/pkg/unsafeprinter"
 )
 
 func TestSDL(t *testing.T) {

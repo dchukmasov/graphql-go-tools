@@ -16,17 +16,17 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/wundergraph/graphql-go-tools/v2/pkg/engine/datasource/graphql_datasource"
-	"github.com/wundergraph/graphql-go-tools/v2/pkg/engine/datasource/httpclient"
-	"github.com/wundergraph/graphql-go-tools/v2/pkg/engine/datasource/staticdatasource"
-	"github.com/wundergraph/graphql-go-tools/v2/pkg/engine/plan"
-	"github.com/wundergraph/graphql-go-tools/v2/pkg/engine/resolve"
-	"github.com/wundergraph/graphql-go-tools/v2/pkg/operationreport"
-	"github.com/wundergraph/graphql-go-tools/v2/pkg/starwars"
-	"github.com/wundergraph/graphql-go-tools/v2/pkg/testing/federationtesting"
-	accounts "github.com/wundergraph/graphql-go-tools/v2/pkg/testing/federationtesting/accounts/graph"
-	products "github.com/wundergraph/graphql-go-tools/v2/pkg/testing/federationtesting/products/graph"
-	reviews "github.com/wundergraph/graphql-go-tools/v2/pkg/testing/federationtesting/reviews/graph"
+	"github.com/dchukmasov/graphql-go-tools/v2/pkg/engine/datasource/graphql_datasource"
+	"github.com/dchukmasov/graphql-go-tools/v2/pkg/engine/datasource/httpclient"
+	"github.com/dchukmasov/graphql-go-tools/v2/pkg/engine/datasource/staticdatasource"
+	"github.com/dchukmasov/graphql-go-tools/v2/pkg/engine/plan"
+	"github.com/dchukmasov/graphql-go-tools/v2/pkg/engine/resolve"
+	"github.com/dchukmasov/graphql-go-tools/v2/pkg/operationreport"
+	"github.com/dchukmasov/graphql-go-tools/v2/pkg/starwars"
+	"github.com/dchukmasov/graphql-go-tools/v2/pkg/testing/federationtesting"
+	accounts "github.com/dchukmasov/graphql-go-tools/v2/pkg/testing/federationtesting/accounts/graph"
+	products "github.com/dchukmasov/graphql-go-tools/v2/pkg/testing/federationtesting/products/graph"
+	reviews "github.com/dchukmasov/graphql-go-tools/v2/pkg/testing/federationtesting/reviews/graph"
 )
 
 type customResolver struct{}

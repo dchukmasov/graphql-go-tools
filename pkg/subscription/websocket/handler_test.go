@@ -14,12 +14,12 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/wundergraph/graphql-go-tools/pkg/engine/datasource/graphql_datasource"
-	"github.com/wundergraph/graphql-go-tools/pkg/engine/datasource/httpclient"
-	"github.com/wundergraph/graphql-go-tools/pkg/engine/plan"
-	"github.com/wundergraph/graphql-go-tools/pkg/graphql"
-	"github.com/wundergraph/graphql-go-tools/pkg/subscription"
-	"github.com/wundergraph/graphql-go-tools/pkg/testing/subscriptiontesting"
+	"github.com/dchukmasov/graphql-go-tools/pkg/engine/datasource/graphql_datasource"
+	"github.com/dchukmasov/graphql-go-tools/pkg/engine/datasource/httpclient"
+	"github.com/dchukmasov/graphql-go-tools/pkg/engine/plan"
+	"github.com/dchukmasov/graphql-go-tools/pkg/graphql"
+	"github.com/dchukmasov/graphql-go-tools/pkg/subscription"
+	"github.com/dchukmasov/graphql-go-tools/pkg/testing/subscriptiontesting"
 )
 
 func TestHandleWithOptions(t *testing.T) {

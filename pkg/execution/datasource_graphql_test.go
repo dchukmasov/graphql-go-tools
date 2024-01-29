@@ -13,10 +13,10 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/wundergraph/graphql-go-tools/internal/pkg/unsafeparser"
-	"github.com/wundergraph/graphql-go-tools/pkg/astnormalization"
-	"github.com/wundergraph/graphql-go-tools/pkg/execution/datasource"
-	"github.com/wundergraph/graphql-go-tools/pkg/operationreport"
+	"github.com/dchukmasov/graphql-go-tools/internal/pkg/unsafeparser"
+	"github.com/dchukmasov/graphql-go-tools/pkg/astnormalization"
+	"github.com/dchukmasov/graphql-go-tools/pkg/execution/datasource"
+	"github.com/dchukmasov/graphql-go-tools/pkg/operationreport"
 )
 
 type preSendHttpHookFunc func(ctx datasource.HookContext, req *http.Request)

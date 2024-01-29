@@ -6,10 +6,10 @@ import (
 
 	"github.com/buger/jsonparser"
 
-	"github.com/wundergraph/graphql-go-tools/pkg/engine/resolve"
-	"github.com/wundergraph/graphql-go-tools/pkg/fastbuffer"
-	"github.com/wundergraph/graphql-go-tools/pkg/lexer/literal"
-	"github.com/wundergraph/graphql-go-tools/pkg/pool"
+	"github.com/dchukmasov/graphql-go-tools/pkg/engine/resolve"
+	"github.com/dchukmasov/graphql-go-tools/pkg/fastbuffer"
+	"github.com/dchukmasov/graphql-go-tools/pkg/lexer/literal"
+	"github.com/dchukmasov/graphql-go-tools/pkg/pool"
 )
 
 var representationPath = []string{"body", "variables", "representations"}

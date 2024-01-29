@@ -2,15 +2,15 @@ package federation
 
 import (
 	"fmt"
-	"github.com/wundergraph/graphql-go-tools/pkg/asttransform"
+	"github.com/dchukmasov/graphql-go-tools/pkg/asttransform"
 	"strings"
 
-	"github.com/wundergraph/graphql-go-tools/pkg/ast"
-	"github.com/wundergraph/graphql-go-tools/pkg/astparser"
-	"github.com/wundergraph/graphql-go-tools/pkg/astprinter"
-	"github.com/wundergraph/graphql-go-tools/pkg/astvisitor"
-	"github.com/wundergraph/graphql-go-tools/pkg/federation/sdlmerge"
-	"github.com/wundergraph/graphql-go-tools/pkg/operationreport"
+	"github.com/dchukmasov/graphql-go-tools/pkg/ast"
+	"github.com/dchukmasov/graphql-go-tools/pkg/astparser"
+	"github.com/dchukmasov/graphql-go-tools/pkg/astprinter"
+	"github.com/dchukmasov/graphql-go-tools/pkg/astvisitor"
+	"github.com/dchukmasov/graphql-go-tools/pkg/federation/sdlmerge"
+	"github.com/dchukmasov/graphql-go-tools/pkg/operationreport"
 )
 
 func BuildBaseSchemaDocument(serviceSDLs ...string) (string, error) {

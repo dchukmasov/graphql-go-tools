@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/wundergraph/graphql-go-tools/internal/pkg/unsafeparser"
+	"github.com/dchukmasov/graphql-go-tools/internal/pkg/unsafeparser"
 )
 
 func TestRequiredFieldExtractor_GetAllFieldRequires(t *testing.T) {

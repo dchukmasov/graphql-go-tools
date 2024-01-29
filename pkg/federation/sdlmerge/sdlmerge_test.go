@@ -9,10 +9,10 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/wundergraph/graphql-go-tools/internal/pkg/unsafeparser"
-	"github.com/wundergraph/graphql-go-tools/pkg/astprinter"
-	"github.com/wundergraph/graphql-go-tools/pkg/astvisitor"
-	"github.com/wundergraph/graphql-go-tools/pkg/operationreport"
+	"github.com/dchukmasov/graphql-go-tools/internal/pkg/unsafeparser"
+	"github.com/dchukmasov/graphql-go-tools/pkg/astprinter"
+	"github.com/dchukmasov/graphql-go-tools/pkg/astvisitor"
+	"github.com/dchukmasov/graphql-go-tools/pkg/operationreport"
 )
 
 var testEntitySet = entitySet{"Mammal": {}}

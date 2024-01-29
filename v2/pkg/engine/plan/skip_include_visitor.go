@@ -1,9 +1,9 @@
 package plan
 
 import (
-	"github.com/wundergraph/graphql-go-tools/v2/pkg/ast"
-	"github.com/wundergraph/graphql-go-tools/v2/pkg/astvisitor"
-	"github.com/wundergraph/graphql-go-tools/v2/pkg/operationreport"
+	"github.com/dchukmasov/graphql-go-tools/v2/pkg/ast"
+	"github.com/dchukmasov/graphql-go-tools/v2/pkg/astvisitor"
+	"github.com/dchukmasov/graphql-go-tools/v2/pkg/operationreport"
 )
 
 func hasConditionalSkipInclude(operation *ast.Document, definition *ast.Document, report *operationreport.Report) bool {

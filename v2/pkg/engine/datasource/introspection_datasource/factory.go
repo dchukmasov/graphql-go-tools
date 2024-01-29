@@ -3,8 +3,8 @@ package introspection_datasource
 import (
 	"context"
 
-	"github.com/wundergraph/graphql-go-tools/v2/pkg/engine/plan"
-	"github.com/wundergraph/graphql-go-tools/v2/pkg/introspection"
+	"github.com/dchukmasov/graphql-go-tools/v2/pkg/engine/plan"
+	"github.com/dchukmasov/graphql-go-tools/v2/pkg/introspection"
 )
 
 type Factory struct {

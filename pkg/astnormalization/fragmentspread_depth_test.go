@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/wundergraph/graphql-go-tools/internal/pkg/unsafeparser"
-	"github.com/wundergraph/graphql-go-tools/pkg/asttransform"
-	"github.com/wundergraph/graphql-go-tools/pkg/operationreport"
+	"github.com/dchukmasov/graphql-go-tools/internal/pkg/unsafeparser"
+	"github.com/dchukmasov/graphql-go-tools/pkg/asttransform"
+	"github.com/dchukmasov/graphql-go-tools/pkg/operationreport"
 )
 
 func TestRealDepthCalculator_CalculateDepthForFragmentSpread(t *testing.T) {

@@ -14,8 +14,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/wundergraph/graphql-go-tools/pkg/execution/datasource"
-	"github.com/wundergraph/graphql-go-tools/pkg/starwars"
+	"github.com/dchukmasov/graphql-go-tools/pkg/execution/datasource"
+	"github.com/dchukmasov/graphql-go-tools/pkg/starwars"
 )
 
 type testRoundTripper func(req *http.Request) *http.Response

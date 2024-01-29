@@ -8,14 +8,14 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/wundergraph/graphql-go-tools/internal/pkg/unsafeparser"
-	"github.com/wundergraph/graphql-go-tools/internal/pkg/unsafeprinter"
-	"github.com/wundergraph/graphql-go-tools/pkg/ast"
-	"github.com/wundergraph/graphql-go-tools/pkg/astparser"
-	"github.com/wundergraph/graphql-go-tools/pkg/astprinter"
-	"github.com/wundergraph/graphql-go-tools/pkg/asttransform"
-	"github.com/wundergraph/graphql-go-tools/pkg/astvisitor"
-	"github.com/wundergraph/graphql-go-tools/pkg/operationreport"
+	"github.com/dchukmasov/graphql-go-tools/internal/pkg/unsafeparser"
+	"github.com/dchukmasov/graphql-go-tools/internal/pkg/unsafeprinter"
+	"github.com/dchukmasov/graphql-go-tools/pkg/ast"
+	"github.com/dchukmasov/graphql-go-tools/pkg/astparser"
+	"github.com/dchukmasov/graphql-go-tools/pkg/astprinter"
+	"github.com/dchukmasov/graphql-go-tools/pkg/asttransform"
+	"github.com/dchukmasov/graphql-go-tools/pkg/astvisitor"
+	"github.com/dchukmasov/graphql-go-tools/pkg/operationreport"
 )
 
 func TestNormalizeOperation(t *testing.T) {

@@ -12,7 +12,7 @@ package asttransform
 import (
 	"sort"
 
-	"github.com/wundergraph/graphql-go-tools/pkg/ast"
+	"github.com/dchukmasov/graphql-go-tools/pkg/ast"
 )
 
 type (

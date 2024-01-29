@@ -4,8 +4,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/wundergraph/graphql-go-tools/pkg/engine/plan"
-	"github.com/wundergraph/graphql-go-tools/pkg/engine/resolve"
+	"github.com/dchukmasov/graphql-go-tools/pkg/engine/plan"
+	"github.com/dchukmasov/graphql-go-tools/pkg/engine/resolve"
 )
 
 type ProcessDataSource struct{}

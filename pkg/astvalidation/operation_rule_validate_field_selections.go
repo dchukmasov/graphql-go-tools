@@ -4,10 +4,10 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/wundergraph/graphql-go-tools/pkg/ast"
-	"github.com/wundergraph/graphql-go-tools/pkg/astvisitor"
-	"github.com/wundergraph/graphql-go-tools/pkg/lexer/literal"
-	"github.com/wundergraph/graphql-go-tools/pkg/operationreport"
+	"github.com/dchukmasov/graphql-go-tools/pkg/ast"
+	"github.com/dchukmasov/graphql-go-tools/pkg/astvisitor"
+	"github.com/dchukmasov/graphql-go-tools/pkg/lexer/literal"
+	"github.com/dchukmasov/graphql-go-tools/pkg/operationreport"
 )
 
 // FieldSelections validates if all FieldSelections are possible and valid

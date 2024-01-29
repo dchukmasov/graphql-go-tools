@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"sort"
 
-	"github.com/wundergraph/graphql-go-tools/v2/internal/pkg/unsafebytes"
-	"github.com/wundergraph/graphql-go-tools/v2/pkg/lexer/position"
+	"github.com/dchukmasov/graphql-go-tools/v2/internal/pkg/unsafebytes"
+	"github.com/dchukmasov/graphql-go-tools/v2/pkg/lexer/position"
 )
 
 // InterfaceTypeDefinition

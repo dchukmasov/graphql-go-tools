@@ -7,8 +7,8 @@ import (
 
 	"github.com/buger/jsonparser"
 
-	"github.com/wundergraph/graphql-go-tools/v2/pkg/fastbuffer"
-	"github.com/wundergraph/graphql-go-tools/v2/pkg/pool"
+	"github.com/dchukmasov/graphql-go-tools/v2/pkg/fastbuffer"
+	"github.com/dchukmasov/graphql-go-tools/v2/pkg/pool"
 )
 
 type SimpleResolver struct {

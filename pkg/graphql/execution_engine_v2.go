@@ -11,18 +11,18 @@ import (
 	"strconv"
 	"sync"
 
+	"github.com/dchukmasov/graphql-go-tools/pkg/engine/datasource/introspection_datasource"
 	lru "github.com/hashicorp/golang-lru"
 	"github.com/jensneuse/abstractlogger"
-	"github.com/wundergraph/graphql-go-tools/pkg/engine/datasource/introspection_datasource"
 
-	"github.com/wundergraph/graphql-go-tools/pkg/ast"
-	"github.com/wundergraph/graphql-go-tools/pkg/astprinter"
-	"github.com/wundergraph/graphql-go-tools/pkg/engine/datasource/httpclient"
-	"github.com/wundergraph/graphql-go-tools/pkg/engine/plan"
-	"github.com/wundergraph/graphql-go-tools/pkg/engine/resolve"
-	"github.com/wundergraph/graphql-go-tools/pkg/operationreport"
-	"github.com/wundergraph/graphql-go-tools/pkg/pool"
-	"github.com/wundergraph/graphql-go-tools/pkg/postprocess"
+	"github.com/dchukmasov/graphql-go-tools/pkg/ast"
+	"github.com/dchukmasov/graphql-go-tools/pkg/astprinter"
+	"github.com/dchukmasov/graphql-go-tools/pkg/engine/datasource/httpclient"
+	"github.com/dchukmasov/graphql-go-tools/pkg/engine/plan"
+	"github.com/dchukmasov/graphql-go-tools/pkg/engine/resolve"
+	"github.com/dchukmasov/graphql-go-tools/pkg/operationreport"
+	"github.com/dchukmasov/graphql-go-tools/pkg/pool"
+	"github.com/dchukmasov/graphql-go-tools/pkg/postprocess"
 )
 
 type EngineResultWriter struct {

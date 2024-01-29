@@ -1,5 +1,5 @@
-[![GoDoc](https://godoc.org/github.com/wundergraph/graphql-go-tools?status.svg)](https://godoc.org/github.com/wundergraph/graphql-go-tools)
-[![v1-ci](https://github.com/wundergraph/graphql-go-tools/workflows/v1-ci/badge.svg)](https://github.com/wundergraph/graphql-go-tools/actions/workflows/v1.yml)
+[![GoDoc](https://godoc.org/github.com/dchukmasov/graphql-go-tools?status.svg)](https://godoc.org/github.com/dchukmasov/graphql-go-tools)
+[![v1-ci](https://github.com/dchukmasov/graphql-go-tools/workflows/v1-ci/badge.svg)](https://github.com/dchukmasov/graphql-go-tools/actions/workflows/v1.yml)
 # GraphQL Router / API Gateway Framework written in Golang
 
 [<p align="center"><img height="auto" src="./assets/logo.png"></p>](https://wundergraph.com/)
@@ -45,7 +45,7 @@ cd v2/pkg/engine
 go test -run=nothing -bench=Benchmark_NestedBatchingWithoutChecks -memprofile memprofile.out -benchtime 3s && go tool pprof memprofile.out
 goos: darwin
 goarch: arm64
-pkg: github.com/wundergraph/graphql-go-tools/v2/pkg/engine/resolve
+pkg: github.com/dchukmasov/graphql-go-tools/v2/pkg/engine/resolve
 Benchmark_NestedBatchingWithoutChecks-10          473186              7134 ns/op          52.00 MB/s        2086 B/op         36 allocs/op
 ```
 
@@ -63,17 +63,17 @@ import (
   "fmt"
 
   "github.com/cespare/xxhash/v2"
-  "github.com/wundergraph/graphql-go-tools/v2/pkg/ast"
-  "github.com/wundergraph/graphql-go-tools/v2/pkg/astnormalization"
-  "github.com/wundergraph/graphql-go-tools/v2/pkg/astparser"
-  "github.com/wundergraph/graphql-go-tools/v2/pkg/astprinter"
-  "github.com/wundergraph/graphql-go-tools/v2/pkg/asttransform"
-  "github.com/wundergraph/graphql-go-tools/v2/pkg/astvalidation"
-  "github.com/wundergraph/graphql-go-tools/v2/pkg/astvisitor"
-  "github.com/wundergraph/graphql-go-tools/v2/pkg/engine/datasource/staticdatasource"
-  "github.com/wundergraph/graphql-go-tools/v2/pkg/engine/plan"
-  "github.com/wundergraph/graphql-go-tools/v2/pkg/engine/resolve"
-  "github.com/wundergraph/graphql-go-tools/v2/pkg/operationreport"
+  "github.com/dchukmasov/graphql-go-tools/v2/pkg/ast"
+  "github.com/dchukmasov/graphql-go-tools/v2/pkg/astnormalization"
+  "github.com/dchukmasov/graphql-go-tools/v2/pkg/astparser"
+  "github.com/dchukmasov/graphql-go-tools/v2/pkg/astprinter"
+  "github.com/dchukmasov/graphql-go-tools/v2/pkg/asttransform"
+  "github.com/dchukmasov/graphql-go-tools/v2/pkg/astvalidation"
+  "github.com/dchukmasov/graphql-go-tools/v2/pkg/astvisitor"
+  "github.com/dchukmasov/graphql-go-tools/v2/pkg/engine/datasource/staticdatasource"
+  "github.com/dchukmasov/graphql-go-tools/v2/pkg/engine/plan"
+  "github.com/dchukmasov/graphql-go-tools/v2/pkg/engine/resolve"
+  "github.com/dchukmasov/graphql-go-tools/v2/pkg/operationreport"
 )
 
 /*

@@ -22,9 +22,9 @@ Indicates that the algorithm should skip this Node. This is useful to whitelist 
 package operation_complexity
 
 import (
-	"github.com/wundergraph/graphql-go-tools/pkg/ast"
-	"github.com/wundergraph/graphql-go-tools/pkg/astvisitor"
-	"github.com/wundergraph/graphql-go-tools/pkg/operationreport"
+	"github.com/dchukmasov/graphql-go-tools/pkg/ast"
+	"github.com/dchukmasov/graphql-go-tools/pkg/astvisitor"
+	"github.com/dchukmasov/graphql-go-tools/pkg/operationreport"
 )
 
 type OperationStats struct {

@@ -17,8 +17,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/wundergraph/graphql-go-tools/pkg/starwars"
-	"github.com/wundergraph/graphql-go-tools/pkg/subscription"
+	"github.com/dchukmasov/graphql-go-tools/pkg/starwars"
+	"github.com/dchukmasov/graphql-go-tools/pkg/subscription"
 )
 
 func TestGraphQLHTTPRequestHandler_ServeHTTP(t *testing.T) {

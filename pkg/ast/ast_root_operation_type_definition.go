@@ -2,7 +2,7 @@ package ast
 
 import (
 	"bytes"
-	"github.com/wundergraph/graphql-go-tools/pkg/lexer/position"
+	"github.com/dchukmasov/graphql-go-tools/pkg/lexer/position"
 )
 
 var DefaultQueryTypeName = []byte("Query")

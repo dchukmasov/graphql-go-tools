@@ -1,7 +1,7 @@
 package astvalidation
 
 import (
-	"github.com/wundergraph/graphql-go-tools/pkg/astvisitor"
+	"github.com/dchukmasov/graphql-go-tools/pkg/astvisitor"
 )
 
 var reservedFieldPrefix = []byte("__")

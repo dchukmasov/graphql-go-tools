@@ -5,7 +5,7 @@ import (
 	"io"
 	"os"
 
-	"github.com/wundergraph/graphql-go-tools/pkg/lexer/literal"
+	"github.com/dchukmasov/graphql-go-tools/pkg/lexer/literal"
 )
 
 type GraphQLFile struct {

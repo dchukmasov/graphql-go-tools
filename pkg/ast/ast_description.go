@@ -4,9 +4,9 @@ import (
 	"io"
 	"strings"
 
-	"github.com/wundergraph/graphql-go-tools/pkg/lexer/literal"
-	"github.com/wundergraph/graphql-go-tools/pkg/lexer/position"
-	"github.com/wundergraph/graphql-go-tools/pkg/lexer/runes"
+	"github.com/dchukmasov/graphql-go-tools/pkg/lexer/literal"
+	"github.com/dchukmasov/graphql-go-tools/pkg/lexer/position"
+	"github.com/dchukmasov/graphql-go-tools/pkg/lexer/runes"
 )
 
 type Description struct {

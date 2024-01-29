@@ -1,9 +1,9 @@
 package unsafeprinter
 
 import (
-	"github.com/wundergraph/graphql-go-tools/internal/pkg/unsafeparser"
-	"github.com/wundergraph/graphql-go-tools/pkg/ast"
-	"github.com/wundergraph/graphql-go-tools/pkg/astprinter"
+	"github.com/dchukmasov/graphql-go-tools/internal/pkg/unsafeparser"
+	"github.com/dchukmasov/graphql-go-tools/pkg/ast"
+	"github.com/dchukmasov/graphql-go-tools/pkg/astprinter"
 )
 
 func Print(document, definition *ast.Document) string {

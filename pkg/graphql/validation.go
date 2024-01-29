@@ -1,8 +1,8 @@
 package graphql
 
 import (
-	"github.com/wundergraph/graphql-go-tools/pkg/astvalidation"
-	"github.com/wundergraph/graphql-go-tools/pkg/operationreport"
+	"github.com/dchukmasov/graphql-go-tools/pkg/astvalidation"
+	"github.com/dchukmasov/graphql-go-tools/pkg/operationreport"
 )
 
 type ValidationResult struct {

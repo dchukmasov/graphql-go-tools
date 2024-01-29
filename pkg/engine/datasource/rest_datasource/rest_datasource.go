@@ -9,10 +9,10 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/wundergraph/graphql-go-tools/pkg/ast"
-	"github.com/wundergraph/graphql-go-tools/pkg/engine/datasource/httpclient"
-	"github.com/wundergraph/graphql-go-tools/pkg/engine/plan"
-	"github.com/wundergraph/graphql-go-tools/pkg/lexer/literal"
+	"github.com/dchukmasov/graphql-go-tools/pkg/ast"
+	"github.com/dchukmasov/graphql-go-tools/pkg/engine/datasource/httpclient"
+	"github.com/dchukmasov/graphql-go-tools/pkg/engine/plan"
+	"github.com/dchukmasov/graphql-go-tools/pkg/lexer/literal"
 )
 
 type Planner struct {

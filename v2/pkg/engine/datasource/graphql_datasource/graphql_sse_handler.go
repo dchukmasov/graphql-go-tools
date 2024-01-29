@@ -10,9 +10,9 @@ import (
 	"net/http"
 
 	"github.com/buger/jsonparser"
+	"github.com/dchukmasov/graphql-go-tools/v2/pkg/engine/resolve"
 	log "github.com/jensneuse/abstractlogger"
 	"github.com/r3labs/sse/v2"
-	"github.com/wundergraph/graphql-go-tools/v2/pkg/engine/resolve"
 )
 
 var (

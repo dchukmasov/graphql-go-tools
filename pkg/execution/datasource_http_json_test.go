@@ -15,12 +15,12 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/tidwall/gjson"
 
-	"github.com/wundergraph/graphql-go-tools/internal/pkg/unsafeparser"
-	"github.com/wundergraph/graphql-go-tools/pkg/ast"
-	"github.com/wundergraph/graphql-go-tools/pkg/astnormalization"
-	"github.com/wundergraph/graphql-go-tools/pkg/execution/datasource"
-	"github.com/wundergraph/graphql-go-tools/pkg/lexer/literal"
-	"github.com/wundergraph/graphql-go-tools/pkg/operationreport"
+	"github.com/dchukmasov/graphql-go-tools/internal/pkg/unsafeparser"
+	"github.com/dchukmasov/graphql-go-tools/pkg/ast"
+	"github.com/dchukmasov/graphql-go-tools/pkg/astnormalization"
+	"github.com/dchukmasov/graphql-go-tools/pkg/execution/datasource"
+	"github.com/dchukmasov/graphql-go-tools/pkg/lexer/literal"
+	"github.com/dchukmasov/graphql-go-tools/pkg/operationreport"
 )
 
 const httpJsonDataSourceSchema = `

@@ -1,10 +1,10 @@
 package astparser
 
 import (
-	"github.com/wundergraph/graphql-go-tools/pkg/ast"
-	"github.com/wundergraph/graphql-go-tools/pkg/lexer"
-	"github.com/wundergraph/graphql-go-tools/pkg/lexer/keyword"
-	"github.com/wundergraph/graphql-go-tools/pkg/lexer/token"
+	"github.com/dchukmasov/graphql-go-tools/pkg/ast"
+	"github.com/dchukmasov/graphql-go-tools/pkg/lexer"
+	"github.com/dchukmasov/graphql-go-tools/pkg/lexer/keyword"
+	"github.com/dchukmasov/graphql-go-tools/pkg/lexer/token"
 )
 
 // Tokenizer takes a raw input and turns it into set of tokens

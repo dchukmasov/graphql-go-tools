@@ -3,11 +3,11 @@ package plan
 import (
 	"fmt"
 
-	"github.com/wundergraph/graphql-go-tools/v2/pkg/ast"
-	"github.com/wundergraph/graphql-go-tools/v2/pkg/astimport"
-	"github.com/wundergraph/graphql-go-tools/v2/pkg/astparser"
-	"github.com/wundergraph/graphql-go-tools/v2/pkg/astvisitor"
-	"github.com/wundergraph/graphql-go-tools/v2/pkg/operationreport"
+	"github.com/dchukmasov/graphql-go-tools/v2/pkg/ast"
+	"github.com/dchukmasov/graphql-go-tools/v2/pkg/astimport"
+	"github.com/dchukmasov/graphql-go-tools/v2/pkg/astparser"
+	"github.com/dchukmasov/graphql-go-tools/v2/pkg/astvisitor"
+	"github.com/dchukmasov/graphql-go-tools/v2/pkg/operationreport"
 )
 
 const (

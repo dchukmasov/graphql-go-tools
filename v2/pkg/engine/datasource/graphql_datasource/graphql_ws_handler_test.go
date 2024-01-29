@@ -9,8 +9,8 @@ import (
 	"testing"
 	"time"
 
+	"github.com/dchukmasov/graphql-go-tools/v2/pkg/engine/resolve"
 	"github.com/stretchr/testify/require"
-	"github.com/wundergraph/graphql-go-tools/v2/pkg/engine/resolve"
 
 	"github.com/stretchr/testify/assert"
 	"nhooyr.io/websocket"

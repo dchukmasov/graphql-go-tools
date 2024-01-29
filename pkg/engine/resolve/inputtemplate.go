@@ -7,9 +7,9 @@ import (
 
 	"github.com/buger/jsonparser"
 
-	"github.com/wundergraph/graphql-go-tools/pkg/engine/datasource/httpclient"
-	"github.com/wundergraph/graphql-go-tools/pkg/fastbuffer"
-	"github.com/wundergraph/graphql-go-tools/pkg/lexer/literal"
+	"github.com/dchukmasov/graphql-go-tools/pkg/engine/datasource/httpclient"
+	"github.com/dchukmasov/graphql-go-tools/pkg/fastbuffer"
+	"github.com/dchukmasov/graphql-go-tools/pkg/lexer/literal"
 )
 
 type SegmentType int

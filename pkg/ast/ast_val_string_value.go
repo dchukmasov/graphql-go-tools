@@ -3,7 +3,7 @@ package ast
 import (
 	"bytes"
 
-	"github.com/wundergraph/graphql-go-tools/internal/pkg/unsafebytes"
+	"github.com/dchukmasov/graphql-go-tools/internal/pkg/unsafebytes"
 )
 
 // StringValue

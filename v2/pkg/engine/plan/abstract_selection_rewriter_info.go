@@ -4,7 +4,7 @@ import (
 	"slices"
 	"sort"
 
-	"github.com/wundergraph/graphql-go-tools/v2/pkg/ast"
+	"github.com/dchukmasov/graphql-go-tools/v2/pkg/ast"
 )
 
 type selectionSetInfo struct {

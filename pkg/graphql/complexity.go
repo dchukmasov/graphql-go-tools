@@ -1,9 +1,9 @@
 package graphql
 
 import (
-	"github.com/wundergraph/graphql-go-tools/pkg/ast"
-	"github.com/wundergraph/graphql-go-tools/pkg/middleware/operation_complexity"
-	"github.com/wundergraph/graphql-go-tools/pkg/operationreport"
+	"github.com/dchukmasov/graphql-go-tools/pkg/ast"
+	"github.com/dchukmasov/graphql-go-tools/pkg/middleware/operation_complexity"
+	"github.com/dchukmasov/graphql-go-tools/pkg/operationreport"
 )
 
 var DefaultComplexityCalculator = defaultComplexityCalculator{}

@@ -19,7 +19,7 @@ linters-settings:
       - standard
       - default
       - prefix(github.com/wundergraph)
-      - prefix(github.com/wundergraph/graphql-go-tools)
+      - prefix(github.com/dchukmasov/graphql-go-tools)
 issues:
   exclude:
     - "SA1019: subscription.Message is deprecated: Prefer using TransportClient that is based on byte slices instead of this Message struct."

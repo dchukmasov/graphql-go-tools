@@ -10,8 +10,8 @@ import (
 
 	"github.com/jensneuse/abstractlogger"
 
-	"github.com/wundergraph/graphql-go-tools/pkg/graphql"
-	"github.com/wundergraph/graphql-go-tools/pkg/subscription"
+	"github.com/dchukmasov/graphql-go-tools/pkg/graphql"
+	"github.com/dchukmasov/graphql-go-tools/pkg/subscription"
 )
 
 // GraphQLTransportWSMessageType is a type that defines graphql-transport-ws message type names.

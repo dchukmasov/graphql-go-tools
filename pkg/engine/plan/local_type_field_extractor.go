@@ -1,7 +1,7 @@
 package plan
 
 import (
-	"github.com/wundergraph/graphql-go-tools/pkg/ast"
+	"github.com/dchukmasov/graphql-go-tools/pkg/ast"
 )
 
 const FederationKeyDirectiveName = "key"

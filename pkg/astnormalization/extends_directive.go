@@ -1,8 +1,8 @@
 package astnormalization
 
 import (
-	"github.com/wundergraph/graphql-go-tools/pkg/ast"
-	"github.com/wundergraph/graphql-go-tools/pkg/astvisitor"
+	"github.com/dchukmasov/graphql-go-tools/pkg/ast"
+	"github.com/dchukmasov/graphql-go-tools/pkg/astvisitor"
 )
 
 var extendsDirectiveName = "extends"

@@ -11,14 +11,14 @@ import (
 	"github.com/stretchr/testify/assert"
 	"gonum.org/v1/gonum/stat/combin"
 
-	"github.com/wundergraph/graphql-go-tools/v2/internal/pkg/unsafeparser"
-	"github.com/wundergraph/graphql-go-tools/v2/pkg/astnormalization"
-	"github.com/wundergraph/graphql-go-tools/v2/pkg/astprinter"
-	"github.com/wundergraph/graphql-go-tools/v2/pkg/asttransform"
-	"github.com/wundergraph/graphql-go-tools/v2/pkg/astvalidation"
-	"github.com/wundergraph/graphql-go-tools/v2/pkg/engine/plan"
-	"github.com/wundergraph/graphql-go-tools/v2/pkg/engine/postprocess"
-	"github.com/wundergraph/graphql-go-tools/v2/pkg/operationreport"
+	"github.com/dchukmasov/graphql-go-tools/v2/internal/pkg/unsafeparser"
+	"github.com/dchukmasov/graphql-go-tools/v2/pkg/astnormalization"
+	"github.com/dchukmasov/graphql-go-tools/v2/pkg/astprinter"
+	"github.com/dchukmasov/graphql-go-tools/v2/pkg/asttransform"
+	"github.com/dchukmasov/graphql-go-tools/v2/pkg/astvalidation"
+	"github.com/dchukmasov/graphql-go-tools/v2/pkg/engine/plan"
+	"github.com/dchukmasov/graphql-go-tools/v2/pkg/engine/postprocess"
+	"github.com/dchukmasov/graphql-go-tools/v2/pkg/operationreport"
 )
 
 type testOptions struct {

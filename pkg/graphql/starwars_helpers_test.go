@@ -6,7 +6,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/wundergraph/graphql-go-tools/pkg/starwars"
+	"github.com/dchukmasov/graphql-go-tools/pkg/starwars"
 )
 
 func starwarsSchema(t *testing.T) *Schema {

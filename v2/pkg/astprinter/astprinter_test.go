@@ -9,9 +9,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/wundergraph/graphql-go-tools/v2/internal/pkg/unsafeparser"
-	"github.com/wundergraph/graphql-go-tools/v2/pkg/operationreport"
-	"github.com/wundergraph/graphql-go-tools/v2/pkg/testing/goldie"
+	"github.com/dchukmasov/graphql-go-tools/v2/internal/pkg/unsafeparser"
+	"github.com/dchukmasov/graphql-go-tools/v2/pkg/operationreport"
+	"github.com/dchukmasov/graphql-go-tools/v2/pkg/testing/goldie"
 )
 
 func must(t *testing.T, err error) {

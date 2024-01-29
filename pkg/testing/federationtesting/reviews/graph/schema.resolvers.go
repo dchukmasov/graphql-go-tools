@@ -8,8 +8,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/wundergraph/graphql-go-tools/pkg/testing/federationtesting/reviews/graph/generated"
-	"github.com/wundergraph/graphql-go-tools/pkg/testing/federationtesting/reviews/graph/model"
+	"github.com/dchukmasov/graphql-go-tools/pkg/testing/federationtesting/reviews/graph/generated"
+	"github.com/dchukmasov/graphql-go-tools/pkg/testing/federationtesting/reviews/graph/model"
 )
 
 // AddReview is the resolver for the addReview field.

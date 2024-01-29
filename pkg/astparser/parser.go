@@ -5,14 +5,14 @@ import (
 	"fmt"
 	"runtime"
 
-	"github.com/wundergraph/graphql-go-tools/internal/pkg/unsafebytes"
-	"github.com/wundergraph/graphql-go-tools/pkg/ast"
-	"github.com/wundergraph/graphql-go-tools/pkg/graphqlerrors"
-	"github.com/wundergraph/graphql-go-tools/pkg/lexer/identkeyword"
-	"github.com/wundergraph/graphql-go-tools/pkg/lexer/keyword"
-	"github.com/wundergraph/graphql-go-tools/pkg/lexer/position"
-	"github.com/wundergraph/graphql-go-tools/pkg/lexer/token"
-	"github.com/wundergraph/graphql-go-tools/pkg/operationreport"
+	"github.com/dchukmasov/graphql-go-tools/internal/pkg/unsafebytes"
+	"github.com/dchukmasov/graphql-go-tools/pkg/ast"
+	"github.com/dchukmasov/graphql-go-tools/pkg/graphqlerrors"
+	"github.com/dchukmasov/graphql-go-tools/pkg/lexer/identkeyword"
+	"github.com/dchukmasov/graphql-go-tools/pkg/lexer/keyword"
+	"github.com/dchukmasov/graphql-go-tools/pkg/lexer/position"
+	"github.com/dchukmasov/graphql-go-tools/pkg/lexer/token"
+	"github.com/dchukmasov/graphql-go-tools/pkg/operationreport"
 )
 
 // ParseGraphqlDocumentString takes a raw GraphQL document in string format and parses it into an AST.

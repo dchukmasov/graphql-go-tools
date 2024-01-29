@@ -9,10 +9,10 @@ import (
 
 	"github.com/buger/jsonparser"
 
-	"github.com/wundergraph/graphql-go-tools/v2/pkg/ast"
-	"github.com/wundergraph/graphql-go-tools/v2/pkg/graphqljsonschema"
-	"github.com/wundergraph/graphql-go-tools/v2/pkg/lexer/literal"
-	"github.com/wundergraph/graphql-go-tools/v2/pkg/pool"
+	"github.com/dchukmasov/graphql-go-tools/v2/pkg/ast"
+	"github.com/dchukmasov/graphql-go-tools/v2/pkg/graphqljsonschema"
+	"github.com/dchukmasov/graphql-go-tools/v2/pkg/lexer/literal"
+	"github.com/dchukmasov/graphql-go-tools/v2/pkg/pool"
 )
 
 const (

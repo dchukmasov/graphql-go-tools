@@ -1,7 +1,7 @@
 package federation
 
 import (
-	"github.com/wundergraph/graphql-go-tools/pkg/testing/goldie"
+	"github.com/dchukmasov/graphql-go-tools/pkg/testing/goldie"
 	"testing"
 
 	"github.com/stretchr/testify/assert"

@@ -7,10 +7,10 @@ import (
 	"net/http"
 	"testing"
 
+	"github.com/dchukmasov/graphql-go-tools/v2/pkg/ast"
+	"github.com/dchukmasov/graphql-go-tools/v2/pkg/astjson"
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/assert"
-	"github.com/wundergraph/graphql-go-tools/v2/pkg/ast"
-	"github.com/wundergraph/graphql-go-tools/v2/pkg/astjson"
 )
 
 func TestLoader_LoadGraphQLResponseData(t *testing.T) {

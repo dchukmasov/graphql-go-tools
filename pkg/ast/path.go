@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"unsafe"
 
-	"github.com/wundergraph/graphql-go-tools/internal/pkg/unsafebytes"
+	"github.com/dchukmasov/graphql-go-tools/internal/pkg/unsafebytes"
 )
 
 type PathKind int

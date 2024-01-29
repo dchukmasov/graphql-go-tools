@@ -8,8 +8,8 @@ import (
 	log "github.com/jensneuse/abstractlogger"
 	"github.com/jensneuse/pipeline/pkg/pipe"
 
-	"github.com/wundergraph/graphql-go-tools/pkg/execution/datasource"
-	"github.com/wundergraph/graphql-go-tools/pkg/lexer/literal"
+	"github.com/dchukmasov/graphql-go-tools/pkg/execution/datasource"
+	"github.com/dchukmasov/graphql-go-tools/pkg/lexer/literal"
 )
 
 func TestPipelineDataSource_Resolve(t *testing.T) {

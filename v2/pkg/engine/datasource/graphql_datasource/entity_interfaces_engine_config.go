@@ -1,7 +1,7 @@
 package graphql_datasource
 
 import (
-	"github.com/wundergraph/graphql-go-tools/v2/pkg/engine/plan"
+	"github.com/dchukmasov/graphql-go-tools/v2/pkg/engine/plan"
 )
 
 const EntityInterfacesDefinition = `

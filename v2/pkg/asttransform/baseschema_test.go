@@ -7,10 +7,10 @@ import (
 
 	"github.com/jensneuse/diffview"
 
-	"github.com/wundergraph/graphql-go-tools/v2/internal/pkg/unsafeparser"
-	"github.com/wundergraph/graphql-go-tools/v2/pkg/astprinter"
-	"github.com/wundergraph/graphql-go-tools/v2/pkg/asttransform"
-	"github.com/wundergraph/graphql-go-tools/v2/pkg/testing/goldie"
+	"github.com/dchukmasov/graphql-go-tools/v2/internal/pkg/unsafeparser"
+	"github.com/dchukmasov/graphql-go-tools/v2/pkg/astprinter"
+	"github.com/dchukmasov/graphql-go-tools/v2/pkg/asttransform"
+	"github.com/dchukmasov/graphql-go-tools/v2/pkg/testing/goldie"
 )
 
 func runTestMerge(definition, fixtureName string) func(t *testing.T) {

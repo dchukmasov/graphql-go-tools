@@ -9,13 +9,13 @@ import (
 	"github.com/gobwas/ws/wsutil"
 	"github.com/jensneuse/abstractlogger"
 
-	"github.com/wundergraph/graphql-go-tools/pkg/subscription"
+	"github.com/dchukmasov/graphql-go-tools/pkg/subscription"
 )
 
 // WebsocketSubscriptionClient is an actual implementation of the subscription client interface.
 //
 // Deprecated: This WebsocketSubscriptionClient is deprecated.
-// Use github.com/wundergraph/graphql-go-tools/pkg/subscription/websocket instead.
+// Use github.com/dchukmasov/graphql-go-tools/pkg/subscription/websocket instead.
 type WebsocketSubscriptionClient struct {
 	logger abstractlogger.Logger
 	// clientConn holds the actual connection to the client.
@@ -27,7 +27,7 @@ type WebsocketSubscriptionClient struct {
 // NewWebsocketSubscriptionClient will create a new websocket subscription client.
 //
 // Deprecated: This NewWebsocketSubscriptionClient is deprecated.
-// Use github.com/wundergraph/graphql-go-tools/pkg/subscription/websocket instead.
+// Use github.com/dchukmasov/graphql-go-tools/pkg/subscription/websocket instead.
 func NewWebsocketSubscriptionClient(logger abstractlogger.Logger, clientConn net.Conn) *WebsocketSubscriptionClient {
 	return &WebsocketSubscriptionClient{
 		logger:     logger,
@@ -126,7 +126,7 @@ func (w *WebsocketSubscriptionClient) isClosedConnectionError(err error) bool {
 // HandleWebsocketWithInitFunc will handle a websocket connection with the ability to provide an InitFunc.
 //
 // Deprecated: This HandleWebsocketWithInitFunc is deprecated.
-// Use github.com/wundergraph/graphql-go-tools/pkg/subscription/websocket instead.
+// Use github.com/dchukmasov/graphql-go-tools/pkg/subscription/websocket instead.
 func HandleWebsocketWithInitFunc(
 	done chan bool,
 	errChan chan error,
@@ -163,7 +163,7 @@ func HandleWebsocketWithInitFunc(
 // HandleWebsocket will handle a websocket connection.
 //
 // Deprecated: This HandleWebsocket is deprecated.
-// Use github.com/wundergraph/graphql-go-tools/pkg/subscription/websocket instead.
+// Use github.com/dchukmasov/graphql-go-tools/pkg/subscription/websocket instead.
 func HandleWebsocket(done chan bool, errChan chan error, conn net.Conn, executorPool subscription.ExecutorPool, logger abstractlogger.Logger) {
 	HandleWebsocketWithInitFunc(done, errChan, conn, executorPool, logger, nil)
 }
